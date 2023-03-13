@@ -1,6 +1,6 @@
 [submodule "3rdparty/Pangolin"]
 	path = 3rdparty/Pangolin
-	url = git@github.com:stevenlovegrove/Pangolin.git
+	url = https://github.com/zzx2GH/Pangolin.git
 [submodule "3rdparty/Sophus"]
 	path = 3rdparty/Sophus
 	url = git@github.com:strasdat/Sophus.git
