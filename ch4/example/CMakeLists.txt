@@ -1,4 +1,7 @@
-option(USE_UBUNTU_20 "Set to ON if you are using Ubuntu 20.04" OFF)
+option(USE_UBUNTU_20 "Set to ON if you are using Ubuntu 20.04" ON)
+
+set(CMAKE_CXX_FLAGS "-std=c++11")
+
 find_package(Pangolin REQUIRED)
 if(USE_UBUNTU_20)
     message("You are using Ubuntu 20.04, fmt::fmt will be linked")
